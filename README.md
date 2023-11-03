@@ -53,3 +53,4 @@
     ```
     
 8. **Login**
+    Try login with email: admin@gmail.com and password: admin123
