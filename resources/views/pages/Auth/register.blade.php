@@ -25,7 +25,7 @@
                   <p class="text-center small">Enter your personal details to create account</p>
                 </div>
 
-                <form action="{{ route('registerproses') }}" class="row g-3 needs-validation" novalidate>
+                <form action="{{ route('registerproses') }}" class="row g-3 needs-validation" method="POST">
                   @csrf
 
                   <div class="col-12">

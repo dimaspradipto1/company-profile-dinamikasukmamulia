@@ -56,7 +56,8 @@
                             <textarea class="w-100 form-control p-3" name="message" rows="6" cols="10"
                                 placeholder="Message"></textarea>
                         </div>
-                        <button class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="submit">Send Message</button>
+                        <button class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="submit" style="width: 200px">Send Message</button>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSddLD85MKFYoMgfgXBGL-H45SkjTfrFyOQxHdrwBilz03w3hA/viewform?usp=sharing" class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="submit" style="width: 200px"> Reviews</a>
                     </form>
                 </div>
 

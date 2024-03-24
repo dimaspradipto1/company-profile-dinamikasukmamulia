@@ -70,16 +70,6 @@ Route::middleware(['auth'])->group(function(){
   Route::resource('homeservice', HomeServiceController::class);
   Route::resource('mitra', MitraController::class);
   Route::resource('customer', CustomerController::class);
-
-
-
-  // Route::controller(HomepageController::class)->group(function(){
-  //   Route::get('/' , 'index')->name('homepage');
-  //   Route::get('homepageabout', 'homepageabout')->name('homepageabout');
-  //   Route::get('homepageservices', 'homepageservices')->name('homepageservices');
-  //   Route::get('homepagegallery', 'homepagegallery')->name('homepagegallery');
-  //   Route::get('homepagecontact', 'homepagecontact')->name('homepagecontact');
-  // });
   
 });
 

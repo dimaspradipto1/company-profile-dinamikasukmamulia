@@ -4,8 +4,8 @@
         <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
             <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Our
                 Services</h5>
-            <h1 class="display-5">{{ $homeservice->title }}</h1>
-            <p>{{ $homeservice->subtitle }}</p>
+            <h1 class="display-5">{{ $homeservice->title ?? 'none' }}</h1>
+            <p>{{ $homeservice->subtitle ?? 'none' }}</p>
         </div>
         <div class="row g-5">
             <div class="col-xxl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
@@ -15,7 +15,7 @@
                             <i class="fa fa-globe fa-3x text-primary"></i>
                         </div>
                     </div>
-                    <p class="fs-5">{{ $homeservice->description }}</p>
+                    <p class="fs-5">{{ $homeservice->description ?? 'none' }}</p>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@
                             <i class="fa fa-handshake fa-3x text-primary"></i>
                         </div>
                     </div>
-                    <p class="text-center fs-5">{{ $homeservice->description2 }}</p>
+                    <p class="text-center fs-5">{{ $homeservice->description2 ?? 'none' }}</p>
                 </div>
             </div>
             <div class="col-xxl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".7s">
@@ -37,7 +37,7 @@
                             <i class="fa fa-hand-holding fa-3x text-primary"></i>
                         </div>
                     </div>
-                    <p class="text-center fs-5">{{ $homeservice->description3 }}</p>
+                    <p class="text-center fs-5">{{ $homeservice->description3 ?? 'none' }}</p>
 
                 </div>
             </div>

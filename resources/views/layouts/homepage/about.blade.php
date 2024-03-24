@@ -13,8 +13,8 @@
                   <div class="about-item overflow-hidden">
                       <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">
                           About PT DINAMIKA SUKMA MULIA</h5>
-                      <h1 class="display-5 mb-2">{{ $home_about->title }}</h1>
-                      <p class="fs-5" style="text-align: justify;">{{ $home_about->description }}</p>
+                      <h1 class="display-5 mb-2">{{ $home_about->title ?? 'none' }}</h1>
+                      <p class="fs-5" style="text-align: justify;">{{ $home_about->description ?? 'none' }}</p>
                       <a href="{{ route('homepageabout') }}" class="btn btn-primary border-0 rounded-pill px-4 py-3 mt-5">About Us</a>
 
                   </div>

@@ -11,7 +11,7 @@ class LoginController extends Controller
 {
     public function login()
     {
-        return view('pages.auth.login');
+        return view('pages.Auth.login');
     }
 
     public function loginproses(Request $request)
